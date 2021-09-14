@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2dee72a39a13487fae243075fe87d78b" Name="Diagram1" ZoomLevel="114">
+        <EntityTypeShape EntityType="HumanResourceModel.Bonu" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HumanResourceModel.Department" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HumanResourceModel.EmpHistory" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HumanResourceModel.Employee" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HumanResourceModel.Login" Width="1.5" PointX="7.375" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="HumanResourceModel.FK_Bonus_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="HumanResourceModel.FK_Employee_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="HumanResourceModel.FK_EmpHistory_Employee" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
